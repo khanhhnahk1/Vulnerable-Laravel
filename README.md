@@ -33,10 +33,12 @@ sudo apt-get install php-curl
 composer update
 cp .env.example .env
 php artisan key:generate
-
+```
 
 ### Move to the project directory and then run the project
-```php artisan serve```
+```
+php artisan serve
+```
 
 ### Run the following command to import sql file to your Mysql.
 
