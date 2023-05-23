@@ -14,6 +14,7 @@
         <input type="text" name="payload">
         <button type="submit">Submit</button>
     </form>
+    <a href="https://pastebin.pl/view/raw/f18a7ad9">Example XXE payload</a>
     @if(null!=$result)
         {{$result}}
     @else
